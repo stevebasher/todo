@@ -1,0 +1,73 @@
+2016-08-05 15:59:13.209878 [DISPLAY] 
+2016-08-05 15:59:15.849077 [CLEAR] 
+2016-08-05 15:59:18.239476 [ADD ITEMS] ['hi']
+2016-08-05 15:59:18.239536 [WRITE] hi
+2016-08-05 15:59:18.239628 [DISPLAY] 
+2016-08-05 16:00:42.031358 [PRINT LOGS] 
+2016-08-05 16:00:52.174190 [PRINT LOGS] 
+2016-08-05 16:00:53.696476 [PRINT LOGS] 
+2016-08-05 16:00:54.967781 [DISPLAY] 
+2016-08-05 16:00:57.263688 [CLEAR] 
+2016-08-05 16:04:48.598761 [PRINT LOGS] 
+2016-08-05 16:05:57.394630 [PRINT LOGS] 
+2016-08-05 16:06:18.997064 [PRINT LOGS] 
+2016-08-05 16:06:54.084062 [PRINT LOGS] 
+2016-08-05 16:08:45.045604 [Print logs] 
+2016-08-05 16:08:49.038912 [DISPLAY] Empty
+2016-08-05 16:08:49.960385 [Print logs] 
+2016-08-05 16:09:02.737467 [Display] Empty
+2016-08-05 16:09:03.200360 [Print logs] 
+2016-08-05 16:09:23.373398 [Add items] ['Finish todo script']
+2016-08-05 16:09:23.373473 [Write] Finish todo script
+2016-08-05 16:09:23.373600 [Display] 
+2016-08-05 16:09:30.620260 [Print logs] 
+2016-08-05 16:14:17.528429 [Display] 
+2016-08-05 16:14:23.915837 [Clear] 
+2016-08-05 16:14:25.483455 [Display] Empty
+2016-08-05 16:14:40.175789 [Add items] None
+2016-08-05 17:02:44.823584 [Display] Empty
+2016-08-05 17:02:50.733805 [Display] Empty
+2016-08-05 17:02:51.533851 [Display] Empty
+2016-08-05 17:03:23.786517 [Display] Empty
+2016-08-05 17:03:26.577861 [Display] Empty
+2016-08-05 17:03:41.816614 [Add items] ['Merge SBDEV-29 into B_CI']
+2016-08-05 17:03:41.816683 [Write] Merge SBDEV-29 into B_CI
+2016-08-05 17:03:41.816795 [Display] 
+2016-08-05 17:03:43.847596 [Display] 
+2016-08-05 17:03:56.601058 [Clear] 
+2016-08-05 17:03:57.843132 [Display] Empty
+2016-08-05 17:04:00.757332 [Add items] None
+2016-08-05 17:04:02.759016 [Display] Empty
+2016-08-05 17:04:05.460329 [Display] Empty
+2016-08-05 17:04:35.686708 [Print logs] 
+2016-08-05 17:09:25.993898 [Display] Empty
+2016-08-05 17:09:49.162312 [Add items] ['SBDEV-2490: Custacct integration for creating player for terminal']
+2016-08-05 17:09:49.162375 [Write] SBDEV-2490: Custacct integration for creating player for terminal
+2016-08-05 17:09:49.162487 [Display] 
+2016-08-05 17:28:13.236454 [Display] 
+2016-08-05 17:28:18.178921 [Clear] 
+2016-08-05 17:28:20.206755 [Display] Empty
+2016-08-05 17:28:24.696972 [Print logs] 
+2016-08-05 17:32:03.969922 [Display] Empty
+2016-08-05 17:32:06.516915 [Edit] 
+2016-08-08 09:46:50.857932 [Display] Empty
+2016-08-08 10:57:19.166386 [Display] Empty
+2016-08-08 17:11:51.394422 [Add items] ['rename', 'placeholder', 'to', 'external']
+2016-08-08 17:11:51.394472 [Write] rename
+2016-08-08 17:11:51.394512 [Write] placeholder
+2016-08-08 17:11:51.394540 [Write] to
+2016-08-08 17:11:51.394566 [Write] external
+2016-08-08 17:11:51.394658 [Display] 
+2016-08-08 17:11:55.857203 [Clear] 
+2016-08-08 17:12:19.220807 [Add items] ['Rename placeholder - external']
+2016-08-08 17:12:19.220857 [Write] Rename placeholder - external
+2016-08-08 17:12:19.220954 [Display] 
+2016-08-08 17:12:31.260312 [Add items] ['Create tCustBonusExternal table']
+2016-08-08 17:12:31.260366 [Write] Create tCustBonusExternal table
+2016-08-08 17:12:31.260465 [Display] 
+2016-08-08 17:12:48.141629 [Add items] ['Update search bonuses with external type info']
+2016-08-08 17:12:48.141678 [Write] Update search bonuses with external type info
+2016-08-08 17:12:48.141775 [Display] 
+2016-08-08 17:13:33.314190 [Display] 
+2016-08-08 17:13:42.710365 [Print logs] 
+2016-08-08 17:13:57.692039 [Display] 
