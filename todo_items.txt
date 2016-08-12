@@ -1,3 +1,1 @@
-Rename placeholder - external
-Create tCustBonusExternal table
-Update search bonuses with external type info
+[ ]  Finish custacct config update. Add all keys that are missing (check phab and logs for info) 

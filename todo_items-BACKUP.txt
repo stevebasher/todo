@@ -1,0 +1,3 @@
+Rename placeholder - external
+Create tCustBonusExternal table
+Update search bonuses with external type info
