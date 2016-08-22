@@ -2,6 +2,8 @@
 
 A simple, yet powerful todo script for use within the terminal, written in python.
 
+![Simple TODO](/../screenshots/screenshots/todo_main.png?raw=true "TODO Example")
+
 ### Features
 - Simple, self-explanatory usage
 - Highlight important tasks
@@ -32,13 +34,13 @@ Replace `#` with a list of numbers, seperated by a space, refering to the corres
 
 `todo` Print the current tasks in the todo list.
 
-`todo add item1 item2 ...` Add the items given to the list. If no items are given, the add-item environment is started, which is better for adding more than a couple of items.
+`todo add "Task 1" "Task 2" ...` Add the items given to the list. If no items are given, the add-item environment is started, which is better for adding more than a couple of items.
 
 `todo edit #` Replace the text of the item.
 
 `todo check #` Marks the items with [X].
 
-`todo rm #` Removes the items completely from the list.
+`todo rm #` Removes the items from the list. Use `all` instead of number references to remove every item.
 
 `todo important #` Makes the items important, highlighting them yellow and adding a (i) suffix.
 
