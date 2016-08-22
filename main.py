@@ -3,6 +3,7 @@ import os
 from subprocess import call
 import copy
 import datetime
+from math import floor, ceil
 
 TODO_PATH = os.path.dirname(__file__) + '/'
 TODO_LOG_PATH = TODO_PATH + 'todo_items.log'
@@ -30,6 +31,21 @@ def log(log_action, log_msg=''):
 def print_logs():
 	with open(TODO_LOG_PATH, "r") as log_file:
 		print log_file.read()
+
+def horizontal_line(input_str=None):
+	"""
+	Return a terminal-width === string with str in the middle
+	"""
+	str_len = len(input_str)+2 if input_str else 0
+	_, terminal_width = os.popen('stty size', 'r').read().split()
+	return_str = ""
+	for _ in range(1, int(floor(int(terminal_width)/2)-str_len)):
+		return_str += '='
+	if input_str:
+		return_str += ' '+input_str+' '
+	for _ in range(1, int(ceil(int(terminal_width)/2))):
+		return_str += '='
+	return return_str
 
 def file_exists_not_empty(file_path):
 	return os.path.isfile(file_path) and os.path.getsize(file_path) > 0
@@ -92,14 +108,14 @@ def display_todo():
 	if file_exists_not_empty(TODO_ITEMS_PATH):
 		with open(TODO_PRINT_PATH, "r") as f_print:
 			f_print_lines = f_print.readlines()
-			print bcolors.OKBLUE + '\n-------------- TODO --------------' + bcolors.ENDC
+			print bcolors.OKBLUE + '\n' + horizontal_line('TODO') + bcolors.ENDC
 			for line in f_print_lines:
 				if line.strip():
 					if len(line) > 3 and line.rstrip()[-3:] == "(i)":
 						print bcolors.HIGHLIGHT + line.rstrip('\n') + bcolors.ENDC
 					else:
 						print line.rstrip('\n')
-			print bcolors.OKBLUE + '----------------------------------\n' + bcolors.ENDC
+			print bcolors.OKBLUE + horizontal_line() + '\n' + bcolors.ENDC
 		log('Display')
 	else:
 		print 'Todo is empty, use `todo add [items]`'
@@ -205,7 +221,6 @@ def edit_item(item_number=None):
 						new_item = raw_input('New: ')
 						if new_item:
 							# Handle Important Flag
-							import ipdb; ipdb.set_trace()
 							if len(item) > 3 and item.rstrip('\n')[-3:] == "(i)":
 								i_flag = " (i)"
 							else:
